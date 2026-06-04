@@ -18,12 +18,12 @@ backend/yarn-error.log*
 # Frontend
 # ==========================================
 
-meezan-desk-ui/node_modules/
-meezan-desk-ui/.env
-meezan-desk-ui/dist/
-meezan-desk-ui/build/
-meezan-desk-ui/.vite/
-meezan-desk-ui/coverage/
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/coverage/
 
 # ==========================================
 # Common
