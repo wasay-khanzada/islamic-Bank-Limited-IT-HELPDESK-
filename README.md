@@ -171,15 +171,7 @@ npm run dev
 
 ### 4. Open the app
 
-Frontend will typically run at `http://localhost:5173` and the API at `http://localhost:5000` (confirm against your actual config).
-
----
-
-## 🔑 Environment Variables
-
-See [`.env.example`](./.env.example) for the full list. At minimum you'll need database credentials, a JWT secret, and SMTP settings for email notifications.
-
----
+Frontend will typically run at `http://localhost:5173` and the API at `http://localhost:5000`
 
 ## 🗺️ Roadmap
 
