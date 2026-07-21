@@ -94,8 +94,6 @@ Built on a modern three-tier architecture — a React/TypeScript frontend, a Nod
 | ---------------------------------------------------------------------- | ------------------------------------------ |
 | ![Registration Requests](./docs/screenshots/registration-requests.png) | ![Profile](./docs/screenshots/profile.png) |
 
-> Place your screenshot files in `docs/screenshots/` with the names above (or update the paths) so they render here.
-
 ---
 
 ## 🔐 Role-Based Access Control
