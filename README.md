@@ -33,12 +33,12 @@ A full-stack internal IT Helpdesk Management System built to streamline support 
 
 Built on a modern three-tier architecture — a React/TypeScript frontend, a Node.js/Express REST API, and an MSSQL relational database — with real-time updates layered on top via Socket.io.
 
-| Metric | Value |
-|---|---|
-| Total Users | 22 |
-| Total Tickets | 19+ |
-| User Roles | 4 |
-| SLA Tiers | 3 (24h / 72h / 168h) |
+| Metric        | Value                |
+| ------------- | -------------------- |
+| Total Users   | 22                   |
+| Total Tickets | 19+                  |
+| User Roles    | 4                    |
+| SLA Tiers     | 3 (24h / 72h / 168h) |
 
 ---
 
@@ -59,32 +59,40 @@ Built on a modern three-tier architecture — a React/TypeScript frontend, a Nod
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | React 18, TypeScript, React Router, React Query |
-| Styling | TailwindCSS, shadcn/ui |
-| Charts | Recharts |
-| Backend | Node.js, Express.js (MVC pattern) |
-| Database | MSSQL + Sequelize ORM |
-| Real-Time | Socket.io (WebSockets) |
-| Auth | JWT (JSON Web Tokens) |
-| Email | Nodemailer |
+| Layer     | Technology                                      |
+| --------- | ----------------------------------------------- |
+| Frontend  | React 18, TypeScript, React Router, React Query |
+| Styling   | TailwindCSS, shadcn/ui                          |
+| Charts    | Recharts                                        |
+| Backend   | Node.js, Express.js (MVC pattern)               |
+| Database  | MSSQL + Sequelize ORM                           |
+| Real-Time | Socket.io (WebSockets)                          |
+| Auth      | JWT (JSON Web Tokens)                           |
+| Email     | Nodemailer                                      |
 
 ---
 
 ## 🖼️ Screenshots
 
-| Login Portal | Admin Dashboard |
-|---|---|
+| Login Portal                           | Admin Dashboard                                |
+| -------------------------------------- | ---------------------------------------------- |
 | ![Login](./docs/screenshots/login.png) | ![Dashboard](./docs/screenshots/dashboard.png) |
 
-| All Tickets | Ticket Detail |
-|---|---|
+| All Tickets                                | Ticket Detail                                          |
+| ------------------------------------------ | ------------------------------------------------------ |
 | ![Tickets](./docs/screenshots/tickets.png) | ![Ticket Detail](./docs/screenshots/ticket-detail.png) |
 
-| Departments | Reports & Analytics |
-|---|---|
+| Departments                                        | Reports & Analytics                        |
+| -------------------------------------------------- | ------------------------------------------ |
 | ![Departments](./docs/screenshots/departments.png) | ![Reports](./docs/screenshots/reports.png) |
+
+| Create Ticket                                          | My Tickets                                       |
+| ------------------------------------------------------ | ------------------------------------------------ |
+| ![Create Ticket](./docs/screenshots/create-ticket.png) | ![My Tickets](./docs/screenshots/my-tickets.png) |
+
+| Registration Requests                                                  | Profile                                    |
+| ---------------------------------------------------------------------- | ------------------------------------------ |
+| ![Registration Requests](./docs/screenshots/registration-requests.png) | ![Profile](./docs/screenshots/profile.png) |
 
 > Place your screenshot files in `docs/screenshots/` with the names above (or update the paths) so they render here.
 
@@ -92,14 +100,14 @@ Built on a modern three-tier architecture — a React/TypeScript frontend, a Nod
 
 ## 🔐 Role-Based Access Control
 
-| Capability | Super Admin | Admin | Agent | User |
-|---|:---:|:---:|:---:|:---:|
-| Create Tickets | ✅ | ✅ | ❌ | ✅ |
-| View All Tickets | ✅ | ✅ | ❌ | ❌ |
-| Assign Tickets to Agents | ✅ | ✅ | ❌ | ❌ |
-| Update Ticket Status | ✅ | ✅ | ✅ (assigned only) | ❌ |
-| Manage Departments | ✅ | ✅ | ❌ | ❌ |
-| View Audit Logs | ✅ | ❌ | ❌ | ❌ |
+| Capability               | Super Admin | Admin |       Agent        | User |
+| ------------------------ | :---------: | :---: | :----------------: | :--: |
+| Create Tickets           |     ✅      |  ✅   |         ❌         |  ✅  |
+| View All Tickets         |     ✅      |  ✅   |         ❌         |  ❌  |
+| Assign Tickets to Agents |     ✅      |  ✅   |         ❌         |  ❌  |
+| Update Ticket Status     |     ✅      |  ✅   | ✅ (assigned only) |  ❌  |
+| Manage Departments       |     ✅      |  ✅   |         ❌         |  ❌  |
+| View Audit Logs          |     ✅      |  ❌   |         ❌         |  ❌  |
 
 ---
 
