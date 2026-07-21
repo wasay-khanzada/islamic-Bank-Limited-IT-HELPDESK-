@@ -90,9 +90,9 @@ Built on a modern three-tier architecture — a React/TypeScript frontend, a Nod
 | ------------------------------------------------------ | ------------------------------------------------ |
 | ![Create Ticket](./docs/screenshots/create-ticket.png) | ![My Tickets](./docs/screenshots/my-tickets.png) |
 
-| Registration Requests                                                  | Profile                                    |
-| ---------------------------------------------------------------------- | ------------------------------------------ |
-| ![Registration Requests](./docs/screenshots/registration-requests.png) | ![Profile](./docs/screenshots/profile.png) |
+| Registration Requests                                                  |
+| ---------------------------------------------------------------------- |
+| ![Registration Requests](./docs/screenshots/registration-requests.png) |
 
 ---
 
